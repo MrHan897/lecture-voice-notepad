@@ -11,7 +11,7 @@ if "memo" not in st.session_state:
 
 def ensure_sr():
       try:
-                import speech_recognition as sr
+               import speech_recognition as sr
                 return sr
 except ModuleNotFoundError:
         subprocess.run([sys.executable, "-m", "pip", "install", "-q", "SpeechRecognition", "audioop-lts", "standard-aifc", "standard-chunk"], check=False)
