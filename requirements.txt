@@ -1,0 +1,5 @@
+streamlit>=1.35.0
+SpeechRecognition>=3.10.0
+pydub>=0.25.1
+yt-dlp>=2024.5.0
+youtube-transcript-api>=0.6.2
